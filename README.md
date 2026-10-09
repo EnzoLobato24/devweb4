@@ -1,14 +1,7 @@
 # Arrays, DOM e Eventos em JavaScript
 
-Resolução dos desafios práticos da aula de **Arrays, DOM e Eventos**. O projeto tem uma página (`index.html`) e um script (`app.js`) que praticam três assuntos: métodos de array, manipulação do DOM e eventos.
+Resolução dos desafios práticos da aula de **Arrays, DOM e Eventos**. 
 
-## Como executar
-
-1. Baixe ou clone o repositório (os arquivos `index.html` e `app.js` precisam estar na mesma pasta).
-2. Abra o `index.html` no navegador (duplo clique).
-3. Pressione **F12** e abra a aba **Console** para ver as saídas.
-
-> Antes de rodar, edite a constante `MEU_NOME` no início do `app.js` com o seu nome.
 
 ## Bloco 1 – Métodos de array
 
