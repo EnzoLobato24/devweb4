@@ -1,16 +1,10 @@
-// =====================================================
-// Arrays, DOM e Eventos - Desafios práticos
-// Abra o index.html no navegador e o Console (F12)
-// =====================================================
 
-// ✏️ Troque pelo seu nome:
 const MEU_NOME = 'Enzo Lobato';
 
 const titulo = (texto) => console.log(`\n===== ${texto} =====`);
 
-// =====================================================
 // BLOCO 1 - ARRAYS E MÉTODOS
-// =====================================================
+
 titulo('BLOCO 1 - Arrays e Métodos');
 
 // 1.1 nomes: forEach e map
@@ -52,9 +46,9 @@ console.log('Soma de todos os preços:', totalProdutos);
 
 produtos.forEach((produto) => console.log(`${produto.nome}: R$ ${produto.preco}`));
 
-// =====================================================
+
 // BLOCO 2 - MANIPULAÇÃO DO DOM
-// =====================================================
+
 titulo('BLOCO 2 - Manipulação do DOM');
 
 // 2.1 Alterar o h1
@@ -69,8 +63,6 @@ const paragrafos = document.querySelectorAll('.texto');
 paragrafos.forEach((p) => console.log(p.textContent));
 
 // 2.3 innerHTML na lista
-// Uso "+=" para INSERIR sem apagar os 3 <li> que já estão no HTML
-// (eles são necessários no Bloco 3, para a delegação de eventos).
 console.log('\n-- 2.3 innerHTML --');
 const lista = document.querySelector('#lista');
 lista.innerHTML += '<li>Primeiro item</li><li>Segundo item</li>';
@@ -82,7 +74,6 @@ const terceiro = document.createElement('li');
 terceiro.textContent = 'Terceiro item';
 lista.append(terceiro);
 
-// 2.5 classList.add / contains
 console.log('\n-- 2.5 classList --');
 terceiro.classList.add('destaque');
 console.log('Tem a classe "destaque"?', terceiro.classList.contains('destaque'));
@@ -102,9 +93,8 @@ lista.querySelector('li').classList.add('feito');
 
 console.log('Total de itens na lista:', document.querySelectorAll('li').length);
 
-// =====================================================
+
 // BLOCO 3 - EVENTOS E EVENT DELEGATION
-// =====================================================
 titulo('BLOCO 3 - Eventos e Event Delegation');
 
 // 3.1 click no botão
